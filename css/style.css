@@ -8,7 +8,7 @@
 }
 
 body, html {
-    background-color: gold;
+    background-color: rgb(170, 147, 19);
     height: 100vh;
     width: 100vw;
 }
@@ -27,6 +27,7 @@ section#login {
     overflow: hidden;
 
     background-color: black;
+    color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
