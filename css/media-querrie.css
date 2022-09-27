@@ -19,11 +19,27 @@
         float: right;
         width: 70%;
     }
+
+    section#login > div#imagem {
+        display: block;
+        background: gold url(../img/pexels-athena-2582937.jpg) no-repeat ;
+        background-size: cover;
+        background-position: left bottom;
+        height: 200px;
+    }
 }
 
 @media  screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top, rgb(170, 147, 19), black);
+        background-image: linear-gradient(to top, black, rgb(170, 147, 19));
+    }
+
+    section#login > div#imagem {
+        display: block;
+        background: gold url(../img/pexels-athena-2582937.jpg) no-repeat ;
+        background-size: cover;
+        background-position: left bottom;
+        height: 200px;
     }
 
     section#login {
